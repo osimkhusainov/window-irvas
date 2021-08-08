@@ -1,6 +1,7 @@
 import "./slider";
 import modals from "./modules/modals";
 import tabs from "./modules/tabs";
+import forms from "./modules/forms";
 window.addEventListener("DOMContentLoaded", () => {
   modals();
   tabs(".glazing_slider", ".glazing_block", ".glazing_content", "active");
@@ -10,5 +11,6 @@ window.addEventListener("DOMContentLoaded", () => {
     ".decoration_content > div > div",
     "after_click"
   );
+  forms();
 });
 console.log("hi");
